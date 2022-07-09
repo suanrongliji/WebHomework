@@ -1,0 +1,112 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>重庆美食</title>
+
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.css">
+
+    <script src="../jquery.js"></script>
+    <script src="../bootstrap/js/bootstrap.js"></script>
+</head>
+
+<style>
+    * {
+        font-size: larger;
+        background-image: url(../src/洪崖洞.jpg);
+        background-size: cover;
+    }
+
+    body {
+        background-color: black;
+        color: white;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row" style="height: 250px;">
+            <h1>你必须要去尝试的重庆美食</h1>
+            --点击对应的美食来查看详情
+        </div>
+
+        <div class="row" style="height: 100px;" style="background-color: black;">
+            <div class="col-md-4 col-md-offset-4">
+                <button onclick="Noodle()">
+                    重庆小面
+                </button>
+            </div>
+            <div class="col-md-4">
+                一碗重庆清晨的炙热灵魂
+            </div>
+        </div>
+
+        <div class="row" style="height: 100px;">
+            <div class="col-md-4 col-md-offset-3">
+                <button onclick="hotpot()">
+                    火锅
+                </button>
+            </div>
+            <div class="col-md-4">
+                对于历史文化的传承,对于重庆人自身性格展示
+            </div>
+        </div>
+
+        <div class="row" style="height: 100px;">
+            <div class="col-md-4 col-md-offset-2">
+                <button onclick="vermicelli()">
+                    酸辣粉
+                </button>
+            </div>
+            <div class="col-md-4">
+                爽直中带有几分鲁莽，热情中夹杂几分狡黠
+            </div>
+        </div>
+
+        <div class="row" style="height: 100px;">
+            <div class="col-md-4 col-md-offset-1">
+                <button onclick="roastfish()">
+                    万州烤鱼
+                </button>
+            </div>
+            <div class="col-md-4">
+                口味清鲜醇浓并重,别具一格
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <button onclick="report()">
+                    点击跳转到结业报告
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function Noodle() {
+        window.location.href = "ChongqingNoodle.html";
+    }
+
+    function hotpot() {
+        window.location.href = "hotpot.html";
+    }
+
+    function vermicelli() {
+        window.location.href = "vermicelli.html";
+    }
+
+    function roastfish() {
+        window.location.href = "RoastFish.html";
+    }
+
+    function report() {
+        window.location.href = "report.html";
+    }
+</script>
